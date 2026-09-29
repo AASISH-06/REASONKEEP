@@ -1,0 +1,38 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+*.env
+!.env.example
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.cache/
+
+# Vite
+frontend/.vite/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+*.DS_Store
